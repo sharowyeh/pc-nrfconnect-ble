@@ -2,7 +2,7 @@
   "name": "pc-nrfconnect-ble",
   "version": "3.0.0",
   "description": "A natural first choice for Bluetooth Low Energy development",
-  "displayName": "Bluetooth Low Energy",
+  "displayName": "Bluetooth Low Energy - DEBUG",
   "repository": {
     "type": "git",
     "url": "https://github.com/NordicSemiconductor/pc-nrfconnect-ble.git"

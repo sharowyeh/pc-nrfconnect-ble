@@ -10,6 +10,7 @@
 
 import React from 'react';
 import { connect } from 'react-redux';
+import { logger } from 'pc-nrfconnect-shared';
 import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 
@@ -146,6 +147,13 @@ class DeviceDetailsContainer extends React.PureComponent {
 
         const elemWidth = 250;
         const detailDevices = [];
+
+        // render is routine
+        /* logger.info(
+             `DEBUG: DeviceDetials->render 
+             adapterState ${JSON.stringify(adapterState)}
+             selectComponent ${JSON.stringify(selectComponent)}`
+        ); */
 
         if (!adapterState) {
             return <div className="device-details-container" />;
